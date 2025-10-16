@@ -22,6 +22,7 @@ def reset_game():
 window = tk.Tk()
 window.title("Rock Paper Scissors Game")
 window.geometry("400x300")
+window.configure(bg='lightblue')
 user_var = tk.StringVar()
 program_var = tk.StringVar()
 result_var = tk.StringVar()
